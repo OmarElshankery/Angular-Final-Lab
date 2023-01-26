@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "name": "hoho",
+      "email": "hoho@gmail.com",
+      "password": "hoho",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "password": "Antonette",
+      "email": "Shanna@melissa.tv"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "password": "Samantha",
+      "email": "Nathan@yesenia.net"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "password": "Karianne",
+      "email": "Julianne.OConner@kory.org"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "password": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "password": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "password": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz"
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "password": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me"
+    },
+    {
+      "name": "mhmh",
+      "email": "mdmd@gmail.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "name": "hhhh",
+      "email": "hhhh@gmail.com",
+      "password": "hhhhhhh",
+      "id": 10
+    },
+    {
+      "name": "zizo",
+      "email": "zizo@gmail.com",
+      "password": "zizo",
+      "id": 11
+    }
+  ]
+}

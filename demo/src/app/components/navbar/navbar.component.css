@@ -1,0 +1,14 @@
+.header {
+    background-color: #dc3545;
+    color: #fff !important;
+}
+.navbar-brand{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+.nav-link{
+    font-size: 18px;
+    padding: 8px 20px;
+    font-weight: 600;
+}

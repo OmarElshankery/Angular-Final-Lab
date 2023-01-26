@@ -1,0 +1,39 @@
+<div class="mt-4 p-4">
+    <div class="container p-5">
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Name"
+              formControlName="name" 
+              >
+              <ng-container *ngIf="getName.touched" id="nameHelp">
+                <p *ngIf="getName.hasError('required')" class="form-text text-danger">Name is required</p>
+                <p *ngIf="getName.hasError('pattern')" class="form-text text-danger">Name Must Be String</p>
+              </ng-container>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Email"
+                formControlName="email" 
+                >
+                <ng-container *ngIf="getEmail.touched" id="emailHelp">
+                    <p *ngIf="getEmail.hasError('required')" class="form-text text-danger">Email is required</p>
+                    <p *ngIf="getEmail.hasError('email')" class="form-text text-danger">Email Not Valid</p>
+                </ng-container>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password"
+                formControlName="password" 
+                >
+                <ng-container *ngIf="getPassword.touched" id="passwordHelp">
+                    <p *ngIf="getPassword.hasError('required')" class="form-text text-danger">Password is required</p>
+                    <p *ngIf="getPassword.hasError('minLength')" class="form-text text-danger">Password Must Be Greater Than 8</p>
+                </ng-container>
+            </div>
+            <button type="submit" class="btn btn-success">
+                {{userId?'Edit User':'Add User'}}
+            </button>
+          </form>
+    </div>
+</div>
